@@ -1,0 +1,30 @@
+.van-radio-group .van-checkbox__icon{
+  margin-left: 20px;
+}
+.van-icon-edit{
+  margin-top: 50px;
+}
+.van-swipe-cell__left{
+  width: 30%;
+  color: #e7e7e7;
+  background-color: #e7e7e7;
+}
+.van-swipe-cell__right{
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  background-color: #e40a0a;
+  width: 30%;
+}
+.van-swipe-cell__right>span{
+  margin-left: 10px;
+}
+.van-radio-group .van-radio{
+  float: left;
+  margin: 60px 20px 0 20px;
+}
+.van-swipe-cell__wrapper:after{
+  display: block;
+  content: "";
+  clear: both;
+}

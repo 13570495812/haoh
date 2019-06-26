@@ -1,0 +1,10 @@
+.van-picker__cancel, .van-picker__confirm, .van-picker-column{
+  font-size: 28px;
+  height: 500px !important;
+}
+.van-picker__cancel, .van-picker__confirm, .van-picker__columns{
+  height: 500px !important;
+}
+.van-picker__title{
+  font-size: 28px;
+}

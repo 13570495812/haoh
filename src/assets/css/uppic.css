@@ -1,0 +1,22 @@
+.van-uploader {
+  height: 100px;
+  width: 100px;
+}
+
+.van-checkbox__label {
+  font-family: HiraginoSansGB-W3;
+  font-size: 28px;
+  color: #333333;
+}
+
+.van-checkbox__icon--checked .van-icon {
+  height: 32px !important;
+  width: 32px !important;
+  font-size: 32px !important;
+}
+
+.van-checkbox__icon--round .van-icon {
+  height: 32px;
+  width: 32px;
+  font-size: 32px;
+}

@@ -1,0 +1,20 @@
+*{ margin:0px; padding:0px;}
+a{text-decoration: none;}
+ul{list-style-type:none;}
+li{list-style-type:none;} 
+body{
+	 /*width: 7.5rem;*/
+	 background: #fff;
+	 }
+.mui-content{background: #fff;}
+
+#refreshContainer{
+  /*padding-top: 15px !important;*/
+}
+p{
+	margin: 0rem;
+}
+ul,li{
+	margin: 0rem;
+	padding: 0rem;
+}

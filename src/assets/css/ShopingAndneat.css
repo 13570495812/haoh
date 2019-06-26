@@ -1,0 +1,287 @@
+p{
+		margin: 0;
+		padding: 0;
+	}
+	.Userinformation{
+		background-color: #fff;
+		text-align: left;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between; 
+		padding: 20px 0;
+		border-image-width:100%;
+		border-bottom: 5px solid transparent; 
+		border-image: url(../../assets/img/underline.png) 30 round;
+	}
+	.Userinformation:after{
+		display: block;
+		content: "";
+		clear: both;
+	}
+	.Userinformation-left{
+		width: 10%;
+	}
+	.Userinformation-left i{
+		display: block;
+		float: left;
+		width: 32px;
+		height: 40px;
+		background-image: url(../../assets/img/position.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		margin: 50px 0 0 20px;
+	}
+	.Userinformation-midder{
+		width: 80%;
+	}
+	.Userinformation-midder p:first-of-type{
+		margin-top: 20px;
+		font-size: 32px;
+	}
+	.Userinformation-midder p:last-of-type{
+		margin-top: 15px;
+		font-size: 25px;
+	}
+	.Userinformation-midder p:last-of-type .user-address{
+		line-height: 1.4em;
+	}
+	.Userinformation-midder p:first-of-type .user-phone{
+		float: right;
+	}
+	
+	.Userinformation-midder p span:first-child{
+		margin-left: 10px;
+	}
+	.Userinformation-right{
+		width: 10%;
+	}
+	.Userinformation-right i{
+		display: block;
+		float: left;
+		width: 20px;
+		height: 38px;
+		background-image: url(../../assets/img/right-arrow.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		margin: 50px 0 0 30px;
+	}
+	/*
+	 * UserInformation
+	 */
+	
+.van-submit-bar__bar{
+	    height: 1.133333rem;
+		font-size: 40px;
+	}
+	.van-button--danger{
+		background-color: #89a9fe;
+		border-color: #89a9fe;
+	}
+	.van-submit-bar .van-button{
+		width: 3.033333rem;
+		height: 100%;
+		font-size: 34px;
+	}
+	.van-submit-bar__price{
+		font-size: 30px;
+	}
+	.Submitbar_checked{
+		margin-left: 20px;
+	}
+	.Submitbar_checked img {
+		float: left;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		margin-top: 5px;
+	}
+	.Submitbar_checked span{
+		margin-left: 15px;
+				font-size: 30px;
+	}
+	.van-submit-bar__text{
+		text-align: left;
+	}	
+	.van-submit-bar__text span{
+		margin-left: 20px;
+	}
+	.van-toast--default{
+	width: 250px;
+	height: 250px;
+	background-color: #000000;
+	border-radius: 20px;
+	opacity: 0.5;
+	}
+	.van-toast--default .van-toast__text{
+		width: 193px;
+		height: 27px;
+		font-family: HiraginoSansGB-W3;
+		font-size: 26px;
+		font-weight: normal;
+		font-stretch: normal;
+		line-height: 40px;
+		letter-spacing: 0px;
+		color: #ffffff;
+	}
+	.van-toast--default .van-loading{
+		    width: 83px;
+   			 height: 83px;
+	}
+	/*
+	 * Payment——SubmitBar
+	 */
+	.van-cell{
+		font-size: 0.4rem;
+	}
+	 .van-switch{
+		font-size: 40px !important;
+	}
+	.Codinformation-niming{
+		margin-top: 20px;
+		text-align: left;
+	}
+	.Codinformation-niming .van-switch-cell{
+		padding-left: 20px;
+	}
+    .van-field .van-cell__title {
+		max-width: 2.1rem;
+	}
+	.Codinformation-niming .van-cell__title{
+		margin-left: 20px;
+	}
+	 .van-cell__value .van-field__control{
+		font-size: 30px;
+	}
+	/*
+	 * payment_ningming
+	 */
+	.Payment{
+		background-color: #fafafa;
+	}
+	.van-nav-bar{
+		background-color: #fff;
+		height: 70px;
+		line-height: 70px;
+		border-bottom: 1px solid #ccc;
+	}
+	.van-nav-bar__left,.van-nav-bar__right{
+		font-size: 27px;
+	}
+	.van-nav-bar__title{
+		font-size:  0.46rem;
+	}
+	/*
+	 * payment-index
+	 * */
+		.Codinformation{
+		margin-top: 20px;
+		text-align: left;
+		background-color: #fff;
+	    padding: 0 10px;
+	}
+	.Codinformation-header h3{
+		margin-left: 20px;
+		font-weight: normal;
+	}
+	.Codinformation .van-card__title{
+		max-height: 150px;
+	}
+	.Codinformation .van-card{
+		font-size: 28px;
+		height: 200px;
+		background-color: #fff;
+		padding-left: 1.333333rem;
+	}
+	.Codinformation .van-card__desc, .van-card__title{
+		line-height: 1.3em;
+	}
+	.Codinformation .van-card__right{
+		line-height: 2.233333rem;
+		color: #000000;
+	}
+	.Codinformation .van-card__num{
+		color: #111010;
+	}
+	 .Codinformation .van-card__desc{
+		margin-top: 20px;
+		color: #ccc;
+		max-height: 100px;
+	}
+	.Codinformation .van-card__thumb{
+		width: 1.4rem;
+		height: 110px;
+		top: 30px;
+		left: -60px;
+		position: relative;
+	}
+	.Codinformation .van-card__thumb img{
+		width: 100%;
+		height: 100%;
+	}
+	.Codinformation .van-card__footer{
+		right: 6.2rem;
+		font-size: 28px;
+		color: red;
+		bottom: 20px ;
+	}
+	.Codinformation-list li{
+		padding: 25px;
+		font-size: 0.4rem;
+		border-top: 1px solid #ccc;
+	}
+	.Codinformation-list li .van-stepper {
+		float: right;
+	}
+	.van-stepper__minus, .van-stepper__plus{
+		width:  50px;
+		height: 50px;
+	}
+	.van-stepper__input{
+		width:  50px;
+		height: 50px;
+		font-size: 26px;
+	}
+	.Codinformation-list li .li-right{
+		float: right;
+	}
+	.Codinformation-list li .li-youhui{
+		font-size: 30px;
+		color: #CCCCCC;
+	} 					  
+	.Codinformation-list li .li-huabei {
+		font-size: 30px;
+	}		
+	.Codinformation-list li .li-youhui i,.Codinformation-list li .li-huabei i{
+		float: right;
+		display: block;
+		width: 15px;
+		height: 24px;
+		background-image: url(../../assets/img/right-arrow.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	.Codinformation-list li  .van-cell{
+		font-size: 0.4rem;
+		line-height: 1.3em;
+		padding: 0.133333rem 0;
+	}
+	.Codinformation li .van-field .van-cell__title{
+		max-width: 2.1rem;
+	}
+	.Codinformation-list li .van-cell__value .van-field__control{
+		font-size: 30px;
+	}
+	.Codinformation-mid .van-cell{
+		font-size: 0.4rem;
+	}
+	.Codinformation-mid .van-switch{
+		font-size: 40px !important;
+	}
+	.Codinformation-niming{
+		margin-top: 20px;
+	}
+	/**
+	 *Commodityinformation 
+	 * **/

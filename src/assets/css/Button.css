@@ -1,0 +1,27 @@
+.b-black,.b-blue,.b-red{
+  margin-left: 40px;
+  height: 50px;
+  width: 140px;
+  border-radius: 25px;
+  background-color: transparent;
+  font-size: 22px;
+}
+.b-black{
+  border: 1px solid #333333 !important;
+  color: #333333 !important;
+}
+.b-blue{
+  border: 1px solid #5784fe !important;;
+  color: #5784fe !important;
+}
+.b-red{
+  background-image: linear-gradient(90deg,
+  #ff5e57 0%,
+  #ff2e25 100%) !important;
+  border: none;
+  color: #ffffff !important;
+}
+
+.c_sub-but span {
+    color: #ffffff
+}

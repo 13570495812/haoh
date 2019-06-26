@@ -1,0 +1,7 @@
+.val-year .van-progress{
+  height: 20px;
+  border-radius: 10px;
+}
+.val-year .van-progress__portion--with-pivot{
+  border-radius: 10px;
+}

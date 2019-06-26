@@ -1,0 +1,172 @@
+#big {
+	height: 100%;
+	width: 100%;
+	background: #f0f0f0;
+}
+
+#head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 2.5rem;
+	padding: 0.1rem;
+	background: #ffffff;
+	margin-bottom: 0.6rem;
+}
+
+#head>div {
+	/*border: 1px solid red;*/
+}
+
+.head-left {
+	text-align: center;
+}
+
+.head-left>span {
+	display: block;
+	height: 100%;
+	font-size: 0.6rem;
+	color: black;
+	padding: 0.2rem;
+}
+
+.head-modle {
+	margin: auto 0;
+	text-align: center;
+}
+
+.head-modle>p {
+	font-size: 1rem;
+	color: black;
+	/*margin-top: 0.3rem;*/
+	/*margin-left: -0.8rem;*/
+}
+
+.head-right>span {
+	display: block;
+	height: 100%;
+	font-size: 0.5rem;
+	color: cornflowerblue;
+	padding: 0.1rem 0.5rem;
+}
+
+.pingjia {
+	border-bottom: 1px solid #C8C7CC;
+	margin-top: 0.6rem;
+}
+
+.pingjia>div {
+	display: flex;
+	justify-content: flex-start;
+	background: #fff;
+	padding: 0.8rem;
+}
+
+.imgs {
+	width: 3.125rem;
+  /* height: 1.8rem; */
+  margin-right: 0.2rem;
+}
+
+.nn {
+  color: black;
+  font-size: 0.7rem;
+  margin-top: 0.4rem;
+}
+.nn2 {
+  font-size: 0.4rem;
+}
+.imgs>img {
+  width: 3.125rem;
+  height: 100%;
+}
+
+.pingjia>div>div>p {
+	padding: 0.2rem;
+}
+
+.pingjia>div>div>:nth-child(1) {
+	font-size: 0.3rem;
+	
+}
+
+.pingpong {
+	align-items: center;
+}
+
+.pingpong>p {
+	font-size: 0.9rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 2rem;
+}
+
+.start>img {
+	padding: 0rem 0.4rem;
+	height: 1.2rem;
+}
+
+.cha {
+	margin-left: 2rem;
+}
+#tupoan{
+  position: relative;
+  height: 4.6rem;
+  width: 4.6rem;
+  left: 0.5rem;
+  bottom: 0.5rem;
+}
+#tupoan>img{
+	width: 100%;
+	height: 100%;
+	
+	
+}
+#tupoan>p{
+  text-align: center;
+  margin-top: -2rem;
+}
+#tupian {
+	background: #fff;
+}
+
+#lininput>textarea {
+	padding-left: 0.1rem;
+	border: none;
+  font-size: 0.8rem;;
+}
+
+#mingmm {
+	display: flex;
+	justify-content: space-between;
+  padding: 0.2rem;
+  background-color: #fff;
+  border-top: 1px dashed #ccc;
+}
+#mingmm .p1{
+  padding: 0.4rem 1rem;
+  display: inline-block;
+  padding-right: 0;
+}
+#mingmm input {
+  position: relative;
+  top: 0.15rem;
+}
+#mingmm .p2{
+	text-align: center;
+	margin: auto 0;
+}
+#pingpong{
+	background: #fff;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0.3rem;
+  margin-top: 0.6rem;
+  margin-bottom: 20%;
+}
+#pingpong>p{
+	font-size: 0.33rem;
+	padding: 0.1rem;
+}
+

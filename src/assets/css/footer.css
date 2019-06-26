@@ -1,0 +1,19 @@
+
+.footer-button{
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+.footer-button .van-tabbar-item .van-tabbar-item__icon img{
+  width: 40px;
+  height: 37px;
+}
+.footer-button .van-tabbar-item .van-tabbar-item__text{
+  font-size: 20px;
+  line-height: 1.5em;
+}
+a.router-link-exact-active.router-link-active{
+  color: #8e8e8e;
+}
+.van-tabbar-item--active {
+  color: #832fd7;
+}

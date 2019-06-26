@@ -1,0 +1,13 @@
+.ShoppingCart-control  .van-dialog  {
+  border-radius: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #5784fe;
+}
+.ShoppingCart-control .van-dialog__message{
+  font-size: 30px !important;
+}
+.ShoppingCart-control .van-dialog .van-button--large{
+  height: 98px;
+  font-size: 30px;
+}

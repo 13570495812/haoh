@@ -1,0 +1,38 @@
+.van-cell{
+  height: 80px;
+  border-bottom: 10px solid #e7e7e7;
+}
+.van-cell__title{
+  line-height: 60px;
+}
+.van-cell__title>span{
+  font-size: 28px;
+  height: 80px;
+  line-height: 60px;
+}
+.van-cell__right-icon{
+  margin-top: 20px;
+}
+.van-cell__right-icon{
+  line-height: 10px;
+}
+.van-progress{
+  height: 16px;
+  border-radius: 8px;
+}
+.van-progress__portion{
+  border-radius: 8px;
+}
+.van-progress__pivot{
+  top: -15px;
+  right: 50px;
+  font-size: 18px;
+  background-color: transparent !important;
+  color: #3c8eeb !important;
+}
+.van-collapse-item__content{
+  border-bottom: 20px solid #e7e7e7;
+}
+.van-collapse-item__title--expanded{
+  border-bottom: none;
+}

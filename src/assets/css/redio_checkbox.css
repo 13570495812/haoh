@@ -1,0 +1,35 @@
+.van-checkbox__icon{
+  font-size: 30px;
+  height: auto;
+}
+.van-checkbox__icon--round .van-icon{
+  position: relative;
+  top: -6px;
+}
+.van-checkbox__icon .van-icon{
+  font-size: 40px;
+  height: 30px !important;
+  width: 30px !important;
+}
+.van-icon-success::before{
+  /*position: relative;
+  top: -5px;*/
+  height: 30px;
+  width: 30px;
+  line-height: 10px;
+  font-size: 20px;
+}
+.van-radio .van-icon-checked{
+  color: #3c8eeb;
+  font-size: 30px;
+  position: relative;
+  top: -10px;
+}
+.van-radio{
+  overflow: visible !important;
+}
+.van-radio .van-icon-check{
+  font-size: 30px;
+  position: relative;
+  top: -10px;
+}

@@ -1,0 +1,141 @@
+.van-goods-action-mini-btn__icon {
+    width: 100% !important;
+    height: 100% !important;
+    font-size: 29px !important;
+    margin-top: 50px !important;
+    line-height: 0px !important;
+    color: #5b5b5b !important;
+}
+
+.buttlast[data-v-6b49bc35] .buttlast_small[data-v-745184ac] {
+    font-size: 20px !important;
+}
+
+.buttlast_small[data-v-745184ac]:nth-child(3) {
+    background-color: #89a9fe !important;
+    border: none !important;
+    font-family: HiraginoSansGB-W3 !important;
+    font-size: 28px !important;
+    color: #ffffff !important;
+}
+
+.buttlast_small[data-v-745184ac]:nth-child(4) {
+    background-color: #a86de3 !important;
+    border: none !important;
+    font-family: HiraginoSansGB-W3 !important;
+    font-size: 28px !important;
+    color: #ffffff !important;
+}
+
+
+/* 步进器 */
+
+.numbers_bujin[data-v-745184ac] {
+    width: 280px !important;
+    height: 56px !important;
+}
+
+.van-stepper__minus,
+.van-stepper__plus {
+    width: 87px !important;
+    height: 56px !important;
+}
+
+.van-stepper__input {
+    font-size: 28px !important;
+    width: 100px !important;
+    height: 56px !important;
+    width: 87px;
+    height: 56px;
+}
+
+.van-stepper__input {
+    font-size: 28px;
+    width: 100px;
+    height: 56px;
+}
+
+.van-stepper__minus--disabled::after,
+.van-stepper__minus--disabled::before,
+.van-stepper__plus--disabled::after,
+.van-stepper__plus--disabled::before {
+    font-size: 38px !important;
+}
+
+
+/* 轻提示 */
+
+.van-toast--default {
+    width: 250px !important;
+    min-height: 250px !important;
+}
+
+.van-toast--default .van-toast__icon {
+    font-size: 80px !important;
+}
+
+.van-toast--default .van-toast__text {
+    font-size: 28px !important;
+}
+
+.van-goods-action-mini-btn__icon {
+    color: rgb(185, 182, 182) !important;
+}
+
+
+/* 轻提示 */
+
+.van-toast--default {
+    width: 250px;
+    min-height: 250px;
+}
+
+.van-toast--default .van-toast__icon {
+    font-size: 80px;
+}
+
+.van-toast--default .van-toast__text {
+    font-size: 28px;
+}
+
+.van-goods-action-mini-btn__icon {
+    color: rgb(185, 182, 182);
+}
+
+.bo_tow .butt[data-v-745184ac] {
+    width: 100%;
+}
+
+.van-cell {
+    font-size: 26px;
+    text-indent: 106px;
+    height: 98px;
+    line-height: 78px;
+}
+
+.van-cell__right-icon {
+    margin-top: 43px;
+    margin-right: 24px;
+    line-height: 0;
+    font-size: 25px;
+    color: #333333;
+}
+
+.van-cell {
+    text-indent: 0;
+    padding-left: 106px;
+}
+
+.van-goods-action-mini-btn[data-v-7277395d] {
+    font-family: HiraginoSansGB-W3;
+    font-size: 20px;
+    width: 143px;
+    color: #5b5b5b;
+}
+.van-toast--text {
+  padding: 0.106667rem 0.16rem;
+  min-width: 1.28rem;
+  width: 200px;
+  height: 90px;
+  font-size: 30px;
+}

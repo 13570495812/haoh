@@ -1,0 +1,241 @@
+#big {
+	height: 100%;
+	width: 100%;
+	background: #f0f0f0;
+}
+
+#head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 2.5rem;
+	padding: 0.1rem;
+	background: #ffffff;
+}
+
+#head>div {
+	/*border: 1px solid red;*/
+}
+
+.head-left {
+	text-align: center;
+}
+
+.head-left>span {
+	display: block;
+	height: 100%;
+	font-size: 0.6rem;
+	color: black;
+	padding: 0.2rem;
+}
+
+.head-modle {
+	margin: auto 0;
+	text-align: center;
+}
+
+.head-modle>p {
+	font-size: 1rem;
+	color: black;
+	/*margin-top: 0.3rem;*/
+	/*margin-left: -0.8rem;*/
+}
+
+.head-right>span {
+	display: block;
+	height: 100%;
+	font-size: 1.8rem;
+	color: cornflowerblue;
+	padding: 0.1rem 0.5rem;
+}
+/* 头部结束 */
+
+/* 分类评价开始 */
+#contaner{
+     border-top: 1px solid #F0F0F0; 
+}
+
+#ppiigg{
+  background: #fff;
+  padding: 1rem 0;
+}
+
+#ppiigg>span{
+	padding: 0.2rem 0.2rem;
+	background: #F0F0F0;
+	border-radius: 0.3rem;
+	font-size: 0.8rem;
+	line-height: 2rem;
+	margin: 0.6rem;
+}
+.on{
+	background: cornflowerblue !important;
+	color: #fff;
+}
+/* 分类评价结束 */
+
+/* 中部评价列表开始 */
+#contaner #commentList{
+    background: #ffffff;
+    background: #fff;
+    padding: 1 rem 1.5rem;
+}
+#contaner>.comment>p{
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+    padding: 0.3rem;
+}
+.sezek{
+	 border-bottom: 1px solid #F0F0F0;
+	 margin-bottom: 0.3rem;
+}
+#contaner>.comment>div{
+    padding: 0.6rem;
+   
+}
+#contaner>.comment>div>div>.rasem{
+    height: 2rem;
+    width: 2rem;
+    /* border: 1px solid red; */
+
+}
+#contaner>.comment>div>div>.rasem>img{
+    width: 100%;
+}
+
+#contaner>.comment>div>div{
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+#contaner>.comment>div>div>.spa{
+    margin: auto 0;
+    font-size: 0.3rem;
+    padding-left: 0.5rem;
+    width: 50%;
+}
+#contaner>.comment>div>div>.spa>span{
+    font-size: 0.4rem;
+}
+#contaner>.comment>div>div>.spa>img{
+    width: 10%;
+}
+#contaner>.comment>div>div>.spa>:nth-child(1){
+    color: #111010;
+}
+#contaner>.comment>div>div>.spa>span{
+    color: rgb(255, 85, 185);
+}
+#contaner>.comment>:nth-child(3){
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+    padding: 0.4rem 0.8rem;
+}
+#contaner>.comment>:nth-child(2){
+  font-size: 0.3rem;
+  line-height: 0.4rem;
+  padding-left: 0.8rem;
+}
+#contaner>.comment>.pian{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0rem;
+}
+#contaner>.comment>.pian>div{
+    width: 24%;
+    margin: 0.1rem;
+    height: 6rem;;
+}
+#contaner>.comment>.pian>div>img{
+    width: 100%;
+    height: 100%;
+   
+}
+#contaner>.comment>.chakan{
+    text-align: center;
+    padding: 0.8rem;
+}
+#contaner>.comment>.chakan>span{
+   
+    margin: auto;
+    padding: 0.1rem 0.3rem;
+    border: 1px solid rgb(139, 169,249);
+    border-radius: 0.3rem;
+    color: rgb(139, 169,249);
+    text-align: center;
+    font-size: 0.4rem;
+}
+#contaner>.procomment{
+    margin-top: 0.3rem;
+    background: #ffffff;
+    height: 4rem;
+    margin-bottom: 3rem;
+}
+#contaner>.procomment>p{
+    font-size: 0.4rem;
+    padding: 0.7rem;
+
+}
+#contaner>.procomment>span{
+    display: block;
+    margin-top: 10%;
+   /*  margin-left: 50%; */
+    font-size: 0.4rem;
+    padding: 0.6rem;
+    color: rgb(139, 169,249);
+    text-align: center;
+
+}
+#btm{
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* width: 50%; */
+    height: 1.5rem;
+    border: 1px solid rgb(194, 193, 193);
+    width: 100%;
+    text-align: center;
+    background: #ffffff;
+}
+#btm>div{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+#btm>div>div{
+    width: 50%;
+}
+#btm>div>div>img{
+width: 22%;
+}
+#btm>div>div>p{
+    font-size: 0.5rem;
+    line-height: 0.5rem;
+}
+#btm>:nth-child(2)>:nth-child(1){
+    background: rgb(139, 169,249);
+    text-align: center'
+}
+#btm>:nth-child(2)>:nth-child(2){
+    background: rgb(173, 118,225);
+    text-align: center'
+}
+#btm>:nth-child(2)>div>span{
+    display: block;
+    font-size: 0.4rem;
+    color: #ffffff;
+    line-height: 0.8rem;
+    padding: 0.6rem 0rem;;
+}
+#commentList .rasemsP {
+  line-height: 3rem;
+}
+#contaner > .comment > p[data-v-cebd295c] {
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+  padding: 0.6rem;
+}

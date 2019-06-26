@@ -1,0 +1,16 @@
+.van-picker__toolbar{
+  height: 80px;
+  line-height: 80px;
+  background-color: #e7e7e7;
+}
+.van-picker__toolbar>div{
+  font-size: 34px;
+}
+.van-picker-column__item{
+  /*border-top: 1px solid #e7e7e7;*/
+  font-size: 34px;
+}
+.van-picker-column__item:last-of-type{
+  /*border-bottom: 1px solid #e7e7e7;*/
+  font-size: 34px;
+}

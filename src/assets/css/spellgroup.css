@@ -1,0 +1,15 @@
+#GroupPurchase .van-swipe__indicators i{
+    padding: 0px 5px;
+}
+#GroupPurchase .van-swipe__indicator--active{
+    background-color: #ffffff;
+}
+#GroupPurchase .van-icon{
+    vertical-align: middle;
+    margin-top: -4px;
+}
+#GroupPurchase .swiper-pagination-bullet-active{
+    background: rgb(121, 121, 121);
+    padding: 0 5px;
+    border-radius: 3px;
+}

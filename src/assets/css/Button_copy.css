@@ -1,0 +1,13 @@
+.van-button{
+  width: 180px;
+  height: 58px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.35);
+  border-radius: 29px;
+  border: none !important;
+}
+.van-button>span{
+  line-height: 58px;
+  font-size: 30px !important;
+  color: #5784fe !important;
+}

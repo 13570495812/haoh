@@ -1,0 +1,64 @@
+stages:
+- test
+- build
+- deploy
+cache:
+  key: ${CI_COMMIT_REF_NAME}
+  paths:
+  - node_modules/
+test_dev:
+  image: node:alpine
+  stage: test
+  only:
+  - dev_tmp
+  tags:
+  - NodeJS
+  script:
+  - npm run test
+build:
+  image: node:carbon
+  stage: build
+  only:
+  - master
+  - dev
+  tags:
+  - NodeJS
+  script:
+  - npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver
+  - npm install
+  - npm run build
+  artifacts:
+    expire_in: 1 week
+    paths:
+    - dist
+deploy_dev:
+  image: alpine:3.8
+  stage: deploy
+  only:
+  - dev
+  tags:
+  - NodeJS
+  script:
+  - echo "http://mirrors.aliyun.com/alpine/v3.7/main/" > /etc/apk/repositories
+  - apk add --no-cache rsync openssh
+  - mkdir -p ~/.ssh
+  - echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_dsa
+  - chmod 600 ~/.ssh/id_dsa
+  - echo -e "Host *\n\tStrictHostKeyChecking no\n\tPort 23\n\n" > ~/.ssh/config
+  - rsync -rav --delete dist/ "$SERVER_DEV_HOST:$SERVER_DEV_PATH"
+deploy_master:
+  image: alpine
+  stage: deploy
+  only:
+  - master
+  tags:
+  - NodeJS
+  script:
+  - echo "http://mirrors.aliyun.com/alpine/v3.7/main/" > /etc/apk/repositories
+  - apk add --no-cache rsync openssh
+  - mkdir -p ~/.ssh
+  - echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_dsa
+  - chmod 600 ~/.ssh/id_dsa
+  - echo -e "Host *\n\tStrictHostKeyChecking no\n\tPort 23\n\n" > ~/.ssh/config
+  - rsync -rav --delete dist/ "$SERVER_MASTER_HOST:$SERVER_MASTER_PATH"
+  when: manual

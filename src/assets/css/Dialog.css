@@ -1,0 +1,18 @@
+.van-dialog{
+  height: auto;
+  font-size: 28px;
+}
+.van-dialog__message{
+  font-size: 28px;
+}
+.van-button{
+  font-size: 28px;
+  margin-top: 10px;
+  height: 70px;
+}
+.van-dialog .van-button{
+  margin: 0;
+}
+.van-dialog__header{
+  font-size: 28px;
+}

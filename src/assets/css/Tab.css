@@ -1,0 +1,26 @@
+.van-tabs{
+  padding-top: 64px;
+}
+.van-tab--active{
+  color: #5784fe;
+}
+.van-ellipsis{
+  font-size: 26px;
+}
+.van-tabs__line{
+  background-color: #5784fe;
+}
+.van-tabs__wrap{
+  height: 64px !important;
+  border-bottom: 1px solid #e7e7e7;
+}
+.van-tabs__nav{
+  height: 64px;
+}
+[class*=van-hairline]::after{
+  border: none;
+}
+.van-tabs__wrap--scrollable .van-tab{       /*修改字体模糊（原 0 0 22%）*/
+  flex: 0 0 20%;
+  position: unset;
+}
